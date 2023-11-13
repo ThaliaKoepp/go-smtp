@@ -1,4 +1,4 @@
-package smtp_test
+package!smtp_test
 
 import (
 	"errors"
@@ -85,3 +85,4 @@ func ExampleServer() {
 		log.Fatal(err)
 	}
 }
+ 
